@@ -18,7 +18,7 @@ const ForecastList: React.FC<ForecastListProps> = ({ forecast }) => {
 
   return (
     <div className="forecast-section" style={{ marginTop: "20px" }}>
-      <h2 style={{ color: "#fff", marginBottom: "10px" }}>5 Kunlik Prognoz</h2>
+      <h2 style={{ color: "#fff", marginBottom: "10px" }}>Прогноз на 5 дней</h2>
       <div style={{ display: "flex", flexWrap: "wrap", gap: "15px" }}>
         {forecast
           .filter((_, idx) => idx % 8 === 0)

@@ -6,7 +6,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #000000;
+  background: #006e6e;
   min-height: 100vh;
   padding: 20px;
   color: #ffffff;
@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-  background: #1a1a1a;
+  background: #497eaf;
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 20px 30px;
@@ -42,7 +42,7 @@ body {
 .logo-text {
   font-size: 24px;
   font-weight: bold;
-  color: #ff9900;
+  color: #2b00ff;
 }
 
 .time-info {
@@ -63,7 +63,7 @@ body {
 
 .location {
   font-size: 12px;
-  color: #ff9900;
+  color: #ff0000;
   margin-top: 5px;
   display: flex;
   align-items: center;
@@ -76,7 +76,7 @@ body {
   border-radius: 15px;
   padding: 25px;
   margin-bottom: 25px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 32px rgba(9, 18, 176, 0.5);
 }
 
 .search-container {
@@ -98,13 +98,13 @@ body {
 }
 
 .search-input:focus {
-  border-color: #ff9900;
+  border-color: #bbb817;
   box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.2);
 }
 
 .search-btn {
   padding: 15px 25px;
-  background: #ff9900;
+  background: #0b27a1;
   color: black;
   border: none;
   border-radius: 10px;
@@ -118,7 +118,7 @@ body {
 }
 
 .search-btn:hover {
-  background: #e68a00;
+  background: #e600e2;
   transform: translateY(-2px);
 }
 
@@ -142,7 +142,7 @@ body {
 .city-name {
   font-size: 28px;
   font-weight: bold;
-  color: #ff9900;
+  color: #ff0000;
   margin-bottom: 10px;
 }
 
@@ -167,7 +167,7 @@ body {
 .main-temp {
   font-size: 60px;
   font-weight: bold;
-  color: #ff9900;
+  color: #ffffff;
   margin: 20px 0;
 }
 
@@ -190,7 +190,7 @@ body {
   justify-content: center;
   gap: 10px;
   padding: 15px;
-  background: rgba(255, 153, 0, 0.1);
+  background: rgba(194, 194, 194, 0.1);
   border-radius: 10px;
 }
 
@@ -223,7 +223,7 @@ body {
 .sun-time {
   font-size: 16px;
   font-weight: 600;
-  color: #ff9900;
+  color: #d0d0d0;
 }
 
 .sidebar {
@@ -245,7 +245,7 @@ body {
 .section-title {
   font-size: 18px;
   font-weight: bold;
-  color: #ff9900;
+  color: #ff0000;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -315,7 +315,7 @@ body {
   font-size: 20px;
   color: #ff4d6d;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(236, 236, 236, 0.1);
   transition: all 0.3s ease;
 }
 
